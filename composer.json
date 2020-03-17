@@ -1,0 +1,14 @@
+{
+    "name": "dev/tp6-composer",
+    "description": "gege dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aliqiqi",
+            "email": "745713611@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
