@@ -10,5 +10,25 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+          "php": ">=7.1.0",
+        "firebase/php-jwt": "^5.0",
+        "lazyskills/think-annotation": "dev-rewrite/annotation"
+        },
+        "autoload": {
+        "psr-4": {
+            "paa\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "think\\annotation\\Service"
+            ],
+            "config": {
+                "annotation": "src/config.php",
+                "paa": "src/paa.php"
+            }
+        }
+    }
 }
