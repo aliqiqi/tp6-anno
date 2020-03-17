@@ -9,7 +9,6 @@
             "email": "745713611@qq.com"
         }
     ],
-    "minimum-stability": "master",
     "require": {
           "php": ">=7.1.0",
         "firebase/php-jwt": "^5.0",
